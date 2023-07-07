@@ -1,0 +1,20 @@
+.wrapButton {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid rgb(190, 77, 234);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgba(190, 77, 234, 0.378);
+}
